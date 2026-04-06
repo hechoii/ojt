@@ -1,0 +1,20 @@
+#core
+torch >= 2.0.0
+torchvision
+albumentations
+wandb
+pytest
+black
+ruff
+
+# Training
+torchvision
+torchmetrics
+
+# Data
+datasets
+
+# Dev tools
+jupyterlab
+
+

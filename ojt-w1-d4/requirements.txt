@@ -13,6 +13,8 @@ torchmetrics
 
 # Data
 datasets
+Pillow
+
 
 # Dev tools
 jupyterlab

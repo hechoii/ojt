@@ -3,6 +3,15 @@
 Simple fully-connected network trained on MNIST, built from scratch as part of
 the ABIM OJT AI Engineer program (Week 1).
 
+## Project Structure
+ojt-w1/: Contains daily source code and learning materials (Day 1 to Day 5).
+
+notebooks/: Jupyter notebooks documenting the experimentation and training process.
+
+tests/: Unit tests to verify the mathematical correctness of the network layers.
+
+src/train.py: The primary execution script.
+
 ## Setup
 ```bash
 conda env create -f environment.yml
@@ -10,8 +19,8 @@ conda activate ojt-ai
 ```
 
 ## Run Training
-``` in week 1, from day 1 to day 5, Training model in notebooks\.ipynb_checkpoints\*.ipynb
-Every code how to train and result can be seen in that file
+```bash
+python -m src.train
 # Expected: Epoch 5 | Loss: ~0.08 | Acc: ~97%
 ```
 
